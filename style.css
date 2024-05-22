@@ -112,4 +112,22 @@ footer{
 footer p{
     margin: 3px;
 }
-
+.link-whatzap img{
+    height: 60px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+@media (max-width: 900px){
+    .coluna{
+        width: 100%;
+        vertical-align: middle;
+        margin-bottom: 30px;
+    }
+    .banner p{
+        font-size: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+    }
+}
